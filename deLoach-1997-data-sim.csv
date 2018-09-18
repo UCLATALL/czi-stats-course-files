@@ -1,4 +1,4 @@
-Age (mo),Gender,Condition,Retrievals
+Age,Gender,Condition,Retrievals
 29,female,Nonsymbolic,4
 29,male,Nonsymbolic,3
 29,female,Nonsymbolic,2
