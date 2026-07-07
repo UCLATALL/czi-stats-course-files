@@ -1,6 +1,6 @@
 # Topic Alignment, by Book (Book Versions 5.4–6.2)
 
-> **Archived version.** This guide covers CourseKata book versions 5.4–6.2 (college). For the current book, see [topic-alignment-book-v7.md](topic-alignment-book-v7.md).
+> **Archived version.** This guide covers CourseKata book versions 5.4–6.2 (college). For the current book, see [topic-alignment-book.md](topic-alignment-book.md).
 >
 > This guide is for instructors who teach introductory statistics with a more traditional (non-modeling) set of topics and want to know where to find those topics in the CourseKata books.
 
