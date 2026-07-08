@@ -12,16 +12,16 @@ The unversioned file in each folder is always the current version; when a docume
 
 Guidance for instructors who teach introductory statistics with a more traditional (non-modeling) set of topics, showing where to find those topics in the CourseKata books.
 
-- [topic-alignment/topic-alignment-book.md](topic-alignment/topic-alignment-book.md) — **current version**, aligned to book version 7+ (verified against v7.2); includes a traditional-topics-at-a-glance table (t-test, ANOVA, regression, chi-square, etc.) and a chapter-by-chapter topic list
+- [topic-alignment/topic-alignment-book.md](topic-alignment/topic-alignment-book.md) — **current version**, aligned to book version v7+ (verified against v7.2); includes a traditional-topics-at-a-glance table (t-test, ANOVA, regression, chi-square, etc.) and a chapter-by-chapter topic list
 - [topic-alignment/topic-alignment-book-v5.4-6.2.md](topic-alignment/topic-alignment-book-v5.4-6.2.md) — archived version for book versions 5.4–6.2
 
 ### Learning objectives
 
 The learning goals and objectives that the CourseKata materials are designed around, and that the assessment items embedded in the books are aligned to. Organized as a hierarchy of four high-level goals (Understand Data, Explore Variation, Model Variation, Evaluate Models), sub-goals, and 176 specific learning objectives.
 
-- [learning-objectives/learning-objectives.md](learning-objectives/learning-objectives.md) — **current version**: the full hierarchy, with the book chapters that address each objective (book v5+ chapter numbering, verified against v7.2)
+- [learning-objectives/learning-objectives.md](learning-objectives/learning-objectives.md) — **current version**: the full hierarchy, with the book chapters that address each objective (aligned to book version v5+; verified against v7.2)
 - [learning-objectives/learning-objectives.csv](learning-objectives/learning-objectives.csv) — the same content in flat, machine-readable form (one row per objective), with numeric objective IDs and the number of assessment items aligned to each objective; useful for filtering, searching, or building a crosswalk to your own course objectives
-- [learning-objectives/learning-objectives-book-v4.md](learning-objectives/learning-objectives-book-v4.md) — archived version 4.0, with chapter references to older versions of the book
+- [learning-objectives/learning-objectives-book-v4.md](learning-objectives/learning-objectives-book-v4.md) — archived v4, with chapter references to older versions of the book
 
 ## Everything Else
 

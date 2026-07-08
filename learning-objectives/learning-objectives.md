@@ -34,8 +34,6 @@ Learning objectives are defined by a hierarchical system of high-level goals, su
 
 Every objective is aligned to specific assessment items embedded in the book (selected-response questions, R coding exercises, and short-answer items). The [CSV version](learning-objectives.csv) of this document includes the number of assessment items aligned to each objective.
 
-**Source:** This document is generated from the CourseKata learning objective codebook (ABCD v5), which supersedes the *Learning Goals: Assessment Objectives 4.0* document ([archived here](learning-objectives-book-v4.md)).
-
 ## 1. Understand Data
 
 
