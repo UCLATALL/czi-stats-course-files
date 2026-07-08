@@ -28,68 +28,75 @@ Many objectives require effective use of R code to achieve them. This is indicat
 
 #### 1.1.1. Understand and apply concepts of measurement (CM)
 
-| Code | Learning objective |
-|------|--------------------|
-| CM1 | Quantify variation in data by assigning numbers or categories to attributes (2) |
-| CM2 | Differentiate quantitative and categorical levels of measurement (2) |
-| CM3 | Explain the inherent issue of measurement error (2) |
-| CM4 | Recognize the limitations of measurement, including measurement bias (2) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>CM1</td><td>Quantify variation in data by assigning numbers or categories to attributes (2)</td></tr>
+<tr><td>CM2</td><td>Differentiate quantitative and categorical levels of measurement (2)</td></tr>
+<tr><td>CM3</td><td>Explain the inherent issue of measurement error (2)</td></tr>
+<tr><td>CM4</td><td>Recognize the limitations of measurement, including measurement bias (2)</td></tr>
+</table>
 
 #### 1.1.2. Understand sampling methodology (SM)
 
-| Code | Learning objective |
-|------|--------------------|
-| SM1 | Explain that samples are the result of a sampling process and a data generating process (DGP) (2, 3) |
-| SM2 | Define independent, random sampling and explain the consequences of violating independent, random sampling (2) |
-| SM3 | Explain and apply the definition of sampling variation and consider it a possible explanation for observed group differences (2, 4) |
-| SM4 | Recognize that samples (and even random samples) are not perfectly representative of the entire population (2) |
-| SM5 | Recognize that samples are studied in order to find out about the population and the DGP (2) |
-| SM6 | Recognize the limitations of sampling, including sampling bias (2) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>SM1</td><td>Explain that samples are the result of a sampling process and a data generating process (DGP) (2, 3)</td></tr>
+<tr><td>SM2</td><td>Define independent, random sampling and explain the consequences of violating independent, random sampling (2)</td></tr>
+<tr><td>SM3</td><td>Explain and apply the definition of sampling variation and consider it a possible explanation for observed group differences (2, 4)</td></tr>
+<tr><td>SM4</td><td>Recognize that samples (and even random samples) are not perfectly representative of the entire population (2)</td></tr>
+<tr><td>SM5</td><td>Recognize that samples are studied in order to find out about the population and the DGP (2)</td></tr>
+<tr><td>SM6</td><td>Recognize the limitations of sampling, including sampling bias (2)</td></tr>
+</table>
 
 #### 1.1.3. Understand elements of research design (RD)
 
-| Code | Learning objective |
-|------|--------------------|
-| RD1 | Distinguish outcome variables versus explanatory variables (2, 3, 4) |
-| RD2 | Differentiate observational and experimental studies and recognize the limitations of each (4) |
-| RD3 | Differentiate random sampling and random assignment and explain the advantages of each (4) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>RD1</td><td>Distinguish outcome variables versus explanatory variables (2, 3, 4)</td></tr>
+<tr><td>RD2</td><td>Differentiate observational and experimental studies and recognize the limitations of each (4)</td></tr>
+<tr><td>RD3</td><td>Differentiate random sampling and random assignment and explain the advantages of each (4)</td></tr>
+</table>
 
 ### 1.2. Understand the organization of data
 
 
 #### 1.2.1. Understand data frames (DF)
 
-| Code | Learning objective |
-|------|--------------------|
-| DF1 | Interpret the structure of data: rows (i.e. observations) and columns (i.e. variables) (R) (2) |
-| DF2 | Differentiate and interpret variables versus values in a data set (2) |
-| DF3 | Differentiate and interpret levels of variables (2) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>DF1</td><td>Interpret the structure of data: rows (i.e. observations) and columns (i.e. variables) (R) (2)</td></tr>
+<tr><td>DF2</td><td>Differentiate and interpret variables versus values in a data set (2)</td></tr>
+<tr><td>DF3</td><td>Differentiate and interpret levels of variables (2)</td></tr>
+</table>
 
 #### 1.2.2. Manipulate data in a data frame (MD)
 
-| Code | Learning objective |
-|------|--------------------|
-| MD1 | Write code to perform basic R commands (R) (1 - 12) |
-| MD2 | Create summary variables (R) (2) |
-| MD3 | Aggregate variables across rows to create a new data frame (R) (2) |
-| MD4 | Recode quantitative variables into categorical variables e.g., using ntile() (R) (2) |
-| MD5 | Identify and decide how to handle missing data (R) (2) |
-| MD6 | Filter, organize, and manipulate data in a data frame (i.e., using functions such as arrange, select); interpret the results of those manipulations (R) (2) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>MD1</td><td>Write code to perform basic R commands (R) (1 - 12)</td></tr>
+<tr><td>MD2</td><td>Create summary variables (R) (2)</td></tr>
+<tr><td>MD3</td><td>Aggregate variables across rows to create a new data frame (R) (2)</td></tr>
+<tr><td>MD4</td><td>Recode quantitative variables into categorical variables e.g., using ntile() (R) (2)</td></tr>
+<tr><td>MD5</td><td>Identify and decide how to handle missing data (R) (2)</td></tr>
+<tr><td>MD6</td><td>Filter, organize, and manipulate data in a data frame (i.e., using functions such as arrange, select); interpret the results of those manipulations (R) (2)</td></tr>
+</table>
 
 ### 1.3. Understand the purpose of data
 
 
 #### 1.3.1. Imagine data that could answer a question (DQ)
 
-| Code | Learning objective |
-|------|--------------------|
-| DQ1 | Generate questions that could be answered with a given data set (2) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>DQ1</td><td>Generate questions that could be answered with a given data set (2)</td></tr>
+</table>
 
 #### 1.3.2. Generate questions you could ask of data (QD)
 
-| Code | Learning objective |
-|------|--------------------|
-| QD1 | Evaluate appropriateness of data to specific questions and purposes (2) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>QD1</td><td>Evaluate appropriateness of data to specific questions and purposes (2)</td></tr>
+</table>
 
 ## 2. Explore Variation
 
@@ -99,90 +106,100 @@ Many objectives require effective use of R code to achieve them. This is indicat
 
 #### 2.1.1. Categorize sources of variation (SV)
 
-| Code | Learning objective |
-|------|--------------------|
-| SV1 | Recognize that variation can be divided into explained and unexplained; unexplained variation into real (i.e. a product of the system) or induced; induced variation into measurement error, sampling error, or mistakes (4) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>SV1</td><td>Recognize that variation can be divided into explained and unexplained; unexplained variation into real (i.e. a product of the system) or induced; induced variation into measurement error, sampling error, or mistakes (4)</td></tr>
+</table>
 
 #### 2.1.2. Understand what it means to explain variation (EV)
 
-| Code | Learning objective |
-|------|--------------------|
-| EV1 | Explain and apply an intuitive definition of ‘explaining variation’ (4) |
-| EV2 | Identify within and between group variations in a graph (4) |
-| EV3 | Apply the definition of explaining variation to graphs (e.g. scatterplots, faceted histograms) (4) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>EV1</td><td>Explain and apply an intuitive definition of ‘explaining variation’ (4)</td></tr>
+<tr><td>EV2</td><td>Identify within and between group variations in a graph (4)</td></tr>
+<tr><td>EV3</td><td>Apply the definition of explaining variation to graphs (e.g. scatterplots, faceted histograms) (4)</td></tr>
+</table>
 
 #### 2.1.3. Understand correlation, causation, and confounding (CCC)
 
-| Code | Learning objective |
-|------|--------------------|
-| CCC1 | Recognize that explaining variation does not always mean the relationship is causal (4) |
-| CCC2 | Identify and apply the concepts of confounding variables and the problem of directionality (4, 7) |
-| CCC3 | Differentiate experimental from observational designs; understand which can lead to causal conclusions (4, 7, 8, 11) |
-| CCC4 | Recognize that randomness can cause an apparent relationship in data (4) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>CCC1</td><td>Recognize that explaining variation does not always mean the relationship is causal (4)</td></tr>
+<tr><td>CCC2</td><td>Identify and apply the concepts of confounding variables and the problem of directionality (4, 7)</td></tr>
+<tr><td>CCC3</td><td>Differentiate experimental from observational designs; understand which can lead to causal conclusions (4, 7, 8, 11)</td></tr>
+<tr><td>CCC4</td><td>Recognize that randomness can cause an apparent relationship in data (4)</td></tr>
+</table>
 
 ### 2.2. Describe distributions of data
 
 
 #### 2.2.1. Understand concept of distribution (CD)
 
-| Code | Learning objective |
-|------|--------------------|
-| CD1 | Define a distribution as the pattern of variation in a variable or combination of variables (3) |
-| CD2 | Describe a distribution using shape, center, and spread, and reason about the possible causes of a distribution's characteristics (3) |
-| CD3 | Reason about measures of central tendency (5) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>CD1</td><td>Define a distribution as the pattern of variation in a variable or combination of variables (3)</td></tr>
+<tr><td>CD2</td><td>Describe a distribution using shape, center, and spread, and reason about the possible causes of a distribution's characteristics (3)</td></tr>
+<tr><td>CD3</td><td>Reason about measures of central tendency (5)</td></tr>
+</table>
 
 #### 2.2.2. Understand that distributions of data are generated by DGP, which is usually unknown (DGP)
 
-| Code | Learning objective |
-|------|--------------------|
-| DGP1 | Recognize that populations are the long-run result of a host of causal processes we call the DGP; (3) |
-| DGP2 | Simulate samples of data from a DGP; anticipate what the data may look like (R) (3, 4, 9, 10) |
-| DGP3 | Generate hypotheses about the DGP based on distributions of data; recognize limitations (3, 4) |
-| DGP4 | Recognize the role of randomness and the law of large numbers in interpreting distributions of data (3) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>DGP1</td><td>Recognize that populations are the long-run result of a host of causal processes we call the DGP; (3)</td></tr>
+<tr><td>DGP2</td><td>Simulate samples of data from a DGP; anticipate what the data may look like (R) (3, 4, 9, 10)</td></tr>
+<tr><td>DGP3</td><td>Generate hypotheses about the DGP based on distributions of data; recognize limitations (3, 4)</td></tr>
+<tr><td>DGP4</td><td>Recognize the role of randomness and the law of large numbers in interpreting distributions of data (3)</td></tr>
+</table>
 
 #### 2.2.3. Represent univariate distributions in tables and graphs (RUD)
 
-| Code | Learning objective |
-|------|--------------------|
-| RUD1 | Create frequency tables and relative frequency tables (e.g., tally) (R) (3) |
-| RUD2 | Create and interpret box plots, histograms, and bar graphs to visualize univariate data (R) (3) |
-| RUD3 | Choose the appropriate visualization to represent a given variable (3) |
-| RUD4 | Create and interpret a five-number summary (i.e., favstats()) (R) (3) |
-| RUD5 | Find and interpret the interquartile range (IQR) (4) |
-| RUD6 | Identify outliers and decide how to handle them (3) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>RUD1</td><td>Create frequency tables and relative frequency tables (e.g., tally) (R) (3)</td></tr>
+<tr><td>RUD2</td><td>Create and interpret box plots, histograms, and bar graphs to visualize univariate data (R) (3)</td></tr>
+<tr><td>RUD3</td><td>Choose the appropriate visualization to represent a given variable (3)</td></tr>
+<tr><td>RUD4</td><td>Create and interpret a five-number summary (i.e., favstats()) (R) (3)</td></tr>
+<tr><td>RUD5</td><td>Find and interpret the interquartile range (IQR) (4)</td></tr>
+<tr><td>RUD6</td><td>Identify outliers and decide how to handle them (3)</td></tr>
+</table>
 
 #### 2.2.4. Interpret tables and graphs of univariate distributions (IUD)
 
-| Code | Learning objective |
-|------|--------------------|
-| IUD1 | Interpret the axes of a histogram: identify that frequency is represented on the y axis; variable is represented on the x axis (3) |
-| IUD2 | Interpret bar graphs and understand why shape, center, and spread are not meaningful characteristics for these visualizations (3) |
-| IUD3 | Recognize and explain the differences and similarities between a frequency histogram and a relative frequency histogram (3) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>IUD1</td><td>Interpret the axes of a histogram: identify that frequency is represented on the y axis; variable is represented on the x axis (3)</td></tr>
+<tr><td>IUD2</td><td>Interpret bar graphs and understand why shape, center, and spread are not meaningful characteristics for these visualizations (3)</td></tr>
+<tr><td>IUD3</td><td>Recognize and explain the differences and similarities between a frequency histogram and a relative frequency histogram (3)</td></tr>
+</table>
 
 ### 2.3. Describe relationships in data
 
 
 #### 2.3.1. Represent bivariate relationships in tables and graphs (RBR)
 
-| Code | Learning objective |
-|------|--------------------|
-| RBR1 | Create two-way contingency tables (e.g. using tally function) with both frequencies and proportions (4) (R) |
-| RBR2 | Create scatterplots, faceted histograms, box plots, jitter plots to visualize bivariate data (4) (R) |
-| RBR3 | Choose the appropriate visualization to represent a bivariate relationship (4) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>RBR1</td><td>Create two-way contingency tables (e.g. using tally function) with both frequencies and proportions (4) (R)</td></tr>
+<tr><td>RBR2</td><td>Create scatterplots, faceted histograms, box plots, jitter plots to visualize bivariate data (4) (R)</td></tr>
+<tr><td>RBR3</td><td>Choose the appropriate visualization to represent a bivariate relationship (4)</td></tr>
+</table>
 
 #### 2.3.2. Interpret tables and graphs of bivariate relationships (IBR)
 
-| Code | Learning objective |
-|------|--------------------|
-| IBR1 | Interpret bivariate relationships presented in tables, scatter plots, faceted histograms (4) |
-| IBR2 | Visually evaluate the strength of relationships in scatter plots, faceted histograms, box plots (8) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>IBR1</td><td>Interpret bivariate relationships presented in tables, scatter plots, faceted histograms (4)</td></tr>
+<tr><td>IBR2</td><td>Visually evaluate the strength of relationships in scatter plots, faceted histograms, box plots (8)</td></tr>
+</table>
 
 #### 2.3.3. Represent relationships in word equations (WE)
 
-| Code | Learning objective |
-|------|--------------------|
-| WE1 | Create path diagrams to represent bivariate relationships (4) |
-| WE2 | Write word equations to represent relationships between explanatory and outcome variables (4) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>WE1</td><td>Create path diagrams to represent bivariate relationships (4)</td></tr>
+<tr><td>WE2</td><td>Write word equations to represent relationships between explanatory and outcome variables (4)</td></tr>
+</table>
 
 ## 3. Model Variation
 
@@ -192,149 +209,165 @@ Many objectives require effective use of R code to achieve them. This is indicat
 
 #### 3.1.1. Understand concept of statistical models (SM)
 
-| Code | Learning objective |
-|------|--------------------|
-| SM1 | Map DATA = MODEL + ERROR in different contexts (4, 5, 7, 8) |
-| SM2 | Define and use the concept of a statistical model as a function that produces a predicted score for each observation (5, 7, 8) |
-| SM3 | Differentiate between the empty model and a more complex model (5, 7, 8) |
-| SM4 | Identify the most appropriate model to use based on how variables are measured (e.g., group versus regression models) (5, 7, 8) |
-| SM5 | Distinguish between a model of data and a model of DGP (5, 6, 7, 8) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>SM1</td><td>Map DATA = MODEL + ERROR in different contexts (4, 5, 7, 8)</td></tr>
+<tr><td>SM2</td><td>Define and use the concept of a statistical model as a function that produces a predicted score for each observation (5, 7, 8)</td></tr>
+<tr><td>SM3</td><td>Differentiate between the empty model and a more complex model (5, 7, 8)</td></tr>
+<tr><td>SM4</td><td>Identify the most appropriate model to use based on how variables are measured (e.g., group versus regression models) (5, 7, 8)</td></tr>
+<tr><td>SM5</td><td>Distinguish between a model of data and a model of DGP (5, 6, 7, 8)</td></tr>
+</table>
 
 #### 3.1.2. Understand concept of error (CE)
 
-| Code | Learning objective |
-|------|--------------------|
-| CE1 | Visually intuit which models or distributions show more error (4, 5, 7) |
-| CE2 | Define, calculate, and reason about residuals from models (5, 6, 7, 8) |
-| CE3 | Recognize that residuals aggregate to measures of error (7) |
-| CE4 | Recognize that error from the empty model is all of the unexplained variation (6) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>CE1</td><td>Visually intuit which models or distributions show more error (4, 5, 7)</td></tr>
+<tr><td>CE2</td><td>Define, calculate, and reason about residuals from models (5, 6, 7, 8)</td></tr>
+<tr><td>CE3</td><td>Recognize that residuals aggregate to measures of error (7)</td></tr>
+<tr><td>CE4</td><td>Recognize that error from the empty model is all of the unexplained variation (6)</td></tr>
+</table>
 
 #### 3.1.3. Understand partitioning error (PE)
 
-| Code | Learning objective |
-|------|--------------------|
-| PE1 | Recognize that sum of squares from the empty model (SS total) can be partitioned into error and model sums of squares (6) |
-| PE2 | Recognize that SS total is determined by the outcome variable and so total variation for an outcome variable will be the same regardless of explanatory variables included in the model (7,8) |
-| PE3 | Interpret visual representations of SS error, SS model, and SS total from empty, group, and regression models (8) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>PE1</td><td>Recognize that sum of squares from the empty model (SS total) can be partitioned into error and model sums of squares (6)</td></tr>
+<tr><td>PE2</td><td>Recognize that SS total is determined by the outcome variable and so total variation for an outcome variable will be the same regardless of explanatory variables included in the model (7,8)</td></tr>
+<tr><td>PE3</td><td>Interpret visual representations of SS error, SS model, and SS total from empty, group, and regression models (8)</td></tr>
+</table>
 
 #### 3.1.4. Understand how transforming variables can help build models (TV)
 
-| Code | Learning objective |
-|------|--------------------|
-| TV1 | Use difference scores to model paired samples (7) |
-| TV2 | Use standardized variables (e.g., z-scores) to compare the strengths of linear relationships between different sets of variables (6, 8) |
-| TV3 | Calculate and interpret Pearson’s R, and estimate correlation coefficients from scatterplots (8) |
-| TV4 | Link transformed variables to visualizations (e.g., scatterplots, linear representations of models) (6, 8) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>TV1</td><td>Use difference scores to model paired samples (7)</td></tr>
+<tr><td>TV2</td><td>Use standardized variables (e.g., z-scores) to compare the strengths of linear relationships between different sets of variables (6, 8)</td></tr>
+<tr><td>TV3</td><td>Calculate and interpret Pearson’s R, and estimate correlation coefficients from scatterplots (8)</td></tr>
+<tr><td>TV4</td><td>Link transformed variables to visualizations (e.g., scatterplots, linear representations of models) (6, 8)</td></tr>
+</table>
 
 ### 3.2 Specify models
 
 
 #### 3.2.1. Write models using GLM notation (GLM)
 
-| Code | Learning objective |
-|------|--------------------|
-| GLM1 | Use and interpret GLM notation to represent models of data, the DGP, and sampling distributions (5, 7, 8) |
-| GLM2 | Flexibly use GLM notation to represent group and regression models in different contexts (7, 8) |
-| GLM3 | Differentiate between variables and parameters in GLM equations (5, 7, 8) |
-| GLM4 | Use dummy codes to model multi-group data in GLM (7) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>GLM1</td><td>Use and interpret GLM notation to represent models of data, the DGP, and sampling distributions (5, 7, 8)</td></tr>
+<tr><td>GLM2</td><td>Flexibly use GLM notation to represent group and regression models in different contexts (7, 8)</td></tr>
+<tr><td>GLM3</td><td>Differentiate between variables and parameters in GLM equations (5, 7, 8)</td></tr>
+<tr><td>GLM4</td><td>Use dummy codes to model multi-group data in GLM (7)</td></tr>
+</table>
 
 #### 3.2.2. Interpret parameter estimates in context (IPE)
 
-| Code | Learning objective |
-|------|--------------------|
-| IPE1 | Map GLM components to contexts, graph, and word equations (5, 7, 8) |
-| IPE2 | Interpret GLM components computationally (5,7,8) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>IPE1</td><td>Map GLM components to contexts, graph, and word equations (5, 7, 8)</td></tr>
+<tr><td>IPE2</td><td>Interpret GLM components computationally (5,7,8)</td></tr>
+</table>
 
 ### 3.3. Fit models
 
 
 #### 3.3.1. Understand what it means to fit a model (FM)
 
-| Code | Learning objective |
-|------|--------------------|
-| FM1 | Recognize that fitting a model means to calculate best fitting parameter estimates (5,7,8) |
-| FM2 | Identify that the mean acts as a balancing point for (error) residuals in a distribution (5) |
-| FM3 | Recognize that the best fitting model minimizes the appropriate measure of error (in this course, sum of squares) (6, 7, 8) |
-| FM4 | Understand the concept of “overfitting” a model (7) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>FM1</td><td>Recognize that fitting a model means to calculate best fitting parameter estimates (5,7,8)</td></tr>
+<tr><td>FM2</td><td>Identify that the mean acts as a balancing point for (error) residuals in a distribution (5)</td></tr>
+<tr><td>FM3</td><td>Recognize that the best fitting model minimizes the appropriate measure of error (in this course, sum of squares) (6, 7, 8)</td></tr>
+<tr><td>FM4</td><td>Understand the concept of “overfitting” a model (7)</td></tr>
+</table>
 
 #### 3.3.2. Estimate parameters (EP)
 
-| Code | Learning objective |
-|------|--------------------|
-| EP1 | Differentiate between parameters and statistics; explain why a statistic is our best estimate of a (usually) unknowable parameter (5, 7, 8) |
-| EP2 | Estimate parameters for empty models, group models, and regression models (i.e., fit models) (5, 7, 8) (R) |
-| EP3 | Represent and interpret visual representations of models (e.g. vline() (5, 7, 8) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>EP1</td><td>Differentiate between parameters and statistics; explain why a statistic is our best estimate of a (usually) unknowable parameter (5, 7, 8)</td></tr>
+<tr><td>EP2</td><td>Estimate parameters for empty models, group models, and regression models (i.e., fit models) (5, 7, 8) (R)</td></tr>
+<tr><td>EP3</td><td>Represent and interpret visual representations of models (e.g. vline() (5, 7, 8)</td></tr>
+</table>
 
 #### 3.3.3. Interpret estimates (IE)
 
-| Code | Learning objective |
-|------|--------------------|
-| IE1 | Interpret the output of lm() for empty, group and regression models (R) (5,7,8) |
-| IE2 | Interpret parameter estimates for group and regression models in context (8) |
-| IE3 | Write best fitting model based on lm() output (5,7,8) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>IE1</td><td>Interpret the output of lm() for empty, group and regression models (R) (5,7,8)</td></tr>
+<tr><td>IE2</td><td>Interpret parameter estimates for group and regression models in context (8)</td></tr>
+<tr><td>IE3</td><td>Write best fitting model based on lm() output (5,7,8)</td></tr>
+</table>
 
 ### 3.4. Assess model fit
 
 
 #### 3.4.1. Use residuals to assess model fit (UR)
 
-| Code | Learning objective |
-|------|--------------------|
-| UR1 | Recognize that the empty model is made up of all unexplained variation (5) |
-| UR2 | Recognize that a residual from the empty model can be partitioned into error and model (7, 8) |
-| UR3 | Identify and interpret residuals on a graph of data for empty, group, and regression models (6, 7, 8) |
-| UR4 | Plot and interpret distributions of residuals (R) (7, 8) |
-| UR5 | Generate and analyze predictions and residuals from a model (R) (6, 7, 8) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>UR1</td><td>Recognize that the empty model is made up of all unexplained variation (5)</td></tr>
+<tr><td>UR2</td><td>Recognize that a residual from the empty model can be partitioned into error and model (7, 8)</td></tr>
+<tr><td>UR3</td><td>Identify and interpret residuals on a graph of data for empty, group, and regression models (6, 7, 8)</td></tr>
+<tr><td>UR4</td><td>Plot and interpret distributions of residuals (R) (7, 8)</td></tr>
+<tr><td>UR5</td><td>Generate and analyze predictions and residuals from a model (R) (6, 7, 8)</td></tr>
+</table>
 
 #### 3.4.2. Quantify aggregate error around a model (AE)
 
-| Code | Learning objective |
-|------|--------------------|
-| AE1 | Quantify aggregate error as Sum of Absolute Deviations (SAD), Sum of Squares (SS), variance, and standard deviation, and interpret these measures (R) (6) |
-| AE2 | Explain how sums of squares are constructed from residuals (6) |
-| AE3 | Recognize the pros and cons of different methods of quantifying error (6) |
-| AE4 | Calculate and interpret z-scores within a distribution or across distributions (6) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>AE1</td><td>Quantify aggregate error as Sum of Absolute Deviations (SAD), Sum of Squares (SS), variance, and standard deviation, and interpret these measures (R) (6)</td></tr>
+<tr><td>AE2</td><td>Explain how sums of squares are constructed from residuals (6)</td></tr>
+<tr><td>AE3</td><td>Recognize the pros and cons of different methods of quantifying error (6)</td></tr>
+<tr><td>AE4</td><td>Calculate and interpret z-scores within a distribution or across distributions (6)</td></tr>
+</table>
 
 #### 3.4.3. Compare the fit of two models (CF)
 
-| Code | Learning objective |
-|------|--------------------|
-| CF1 | Use SS, PRE, and F statistic to compare models (7, 8) |
-| CF2 | Calculate (e.g., find ANOVA tables; R) and interpret PRE and F statistic (R) (7, 8) |
-| CF3 | Interpret a t distribution and relate the critical t to critical z (10) |
-| CF4 | Interpret PRE similarly across ANOVA models and regression models: recognize that these two measures express the same thing (8) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>CF1</td><td>Use SS, PRE, and F statistic to compare models (7, 8)</td></tr>
+<tr><td>CF2</td><td>Calculate (e.g., find ANOVA tables; R) and interpret PRE and F statistic (R) (7, 8)</td></tr>
+<tr><td>CF3</td><td>Interpret a t distribution and relate the critical t to critical z (10)</td></tr>
+<tr><td>CF4</td><td>Interpret PRE similarly across ANOVA models and regression models: recognize that these two measures express the same thing (8)</td></tr>
+</table>
 
 #### 3.4.4. Understand and calculate different measures of effect size (ES)
 
-| Code | Learning objective |
-|------|--------------------|
-| ES1 | Describe and determine appropriate measures of effect size such as difference of means, PRE, Cohen’s d (7, 8) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>ES1</td><td>Describe and determine appropriate measures of effect size such as difference of means, PRE, Cohen’s d (7, 8)</td></tr>
+</table>
 
 ### 3.5 Use models to generate predictions and probabilities
 
 
 #### 3.4.5. Use the normal distribution to model variation (ND)
 
-| Code | Learning objective |
-|------|--------------------|
-| ND1 | Explain why the normal distribution may be used to model variation in the DGP/population (6) |
-| ND2 | Identify the features of a normal distribution and use data to construct best fitting normal model of variation (e.g., defined by mean and standard deviation) (6) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>ND1</td><td>Explain why the normal distribution may be used to model variation in the DGP/population (6)</td></tr>
+<tr><td>ND2</td><td>Identify the features of a normal distribution and use data to construct best fitting normal model of variation (e.g., defined by mean and standard deviation) (6)</td></tr>
+</table>
 
 #### 3.4.6. Make point predictions based on parameter estimates (PE)
 
-| Code | Learning objective |
-|------|--------------------|
-| PE1 | Use parameter estimates in functions to make point predictions from the empty, group, and regression models (R) (6) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>PE1</td><td>Use parameter estimates in functions to make point predictions from the empty, group, and regression models (R) (6)</td></tr>
+</table>
 
 #### 3.4.7. Make likelihood predictions based on probability distributions (PD)
 
-| Code | Learning objective |
-|------|--------------------|
-| PD1 | Explain the concept of probability distribution as a model of a random DGP (6, 9) |
-| PD2 | Explain the relationship between a discrete (e.g. data, simulated normal distributions) and continuous probability distribution (6) |
-| PD3 | Use the empirical rule to estimate the likelihood of scores under a normal distribution (6) |
-| PD4 | Use the distribution of data to predict likelihood of future observations falling within a specified range (6) |
-| PD5 | Use the normal distribution to estimate likelihood of future observations falling within a specified range (R) (6) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>PD1</td><td>Explain the concept of probability distribution as a model of a random DGP (6, 9)</td></tr>
+<tr><td>PD2</td><td>Explain the relationship between a discrete (e.g. data, simulated normal distributions) and continuous probability distribution (6)</td></tr>
+<tr><td>PD3</td><td>Use the empirical rule to estimate the likelihood of scores under a normal distribution (6)</td></tr>
+<tr><td>PD4</td><td>Use the distribution of data to predict likelihood of future observations falling within a specified range (6)</td></tr>
+<tr><td>PD5</td><td>Use the normal distribution to estimate likelihood of future observations falling within a specified range (R) (6)</td></tr>
+</table>
 
 ## 4. Evaluate Models
 
@@ -344,100 +377,110 @@ Many objectives require effective use of R code to achieve them. This is indicat
 
 #### 4.1.1. Understand the concept of sampling distribution (CSD)
 
-| Code | Learning objective |
-|------|--------------------|
-| CSD1 | Explain the concept of a sampling distribution (9) |
-| CSD2 | Explain the problem a sampling distribution solves, i.e. that it helps to make sense of a particular estimate given sampling variation (9) |
-| CSD3 | Interpret sampling distributions in specific contexts (9) |
-| CSD4 | Recognize that sampling distributions can depict the random distribution of any statistic (not just the sample mean) from some DGP (9) |
-| CSD5 | Recognize that sampling distributions are imaginary (9) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>CSD1</td><td>Explain the concept of a sampling distribution (9)</td></tr>
+<tr><td>CSD2</td><td>Explain the problem a sampling distribution solves, i.e. that it helps to make sense of a particular estimate given sampling variation (9)</td></tr>
+<tr><td>CSD3</td><td>Interpret sampling distributions in specific contexts (9)</td></tr>
+<tr><td>CSD4</td><td>Recognize that sampling distributions can depict the random distribution of any statistic (not just the sample mean) from some DGP (9)</td></tr>
+<tr><td>CSD5</td><td>Recognize that sampling distributions are imaginary (9)</td></tr>
+</table>
 
 #### 4.1.2. Understand features of sampling distributions (FSD)
 
-| Code | Learning objective |
-|------|--------------------|
-| FSD1 | Describe the shape, center, and spread of a sampling distribution of estimates, including SDoM, b0, b1, F, and PRE (9, 10, 11) |
-| FSD2 | Explain how the shape/center/spread of population and sample size are related to sampling distributions, and how the population's features will affect shape/center/spread of sampling distributions (9) |
-| FSD3 | Define and calculate standard error (9) |
-| FSD4 | Identify standard error visually (9) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>FSD1</td><td>Describe the shape, center, and spread of a sampling distribution of estimates, including SDoM, b0, b1, F, and PRE (9, 10, 11)</td></tr>
+<tr><td>FSD2</td><td>Explain how the shape/center/spread of population and sample size are related to sampling distributions, and how the population's features will affect shape/center/spread of sampling distributions (9)</td></tr>
+<tr><td>FSD3</td><td>Define and calculate standard error (9)</td></tr>
+<tr><td>FSD4</td><td>Identify standard error visually (9)</td></tr>
+</table>
 
 #### 4.1.3. Construct sampling distributions (R) (SDR)
 
-| Code | Learning objective |
-|------|--------------------|
-| SDR1 | Construct sampling distributions by resampling (bootstrapping), simulation, randomization, and using mathematical probability distributions (R) (9, 10, 11) |
-| SDR2 | Explain the relationship between a discrete (e.g. data, simulated normal distributions) and continuous probability distribution (6) |
-| SDR3 | Be able to predict the center and shape of a sampling distribution depending on the method used to construct it (9, 10, 11) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>SDR1</td><td>Construct sampling distributions by resampling (bootstrapping), simulation, randomization, and using mathematical probability distributions (R) (9, 10, 11)</td></tr>
+<tr><td>SDR2</td><td>Explain the relationship between a discrete (e.g. data, simulated normal distributions) and continuous probability distribution (6)</td></tr>
+<tr><td>SDR3</td><td>Be able to predict the center and shape of a sampling distribution depending on the method used to construct it (9, 10, 11)</td></tr>
+</table>
 
 #### 4.1.4. Interpret sampling distributions (ISD)
 
-| Code | Learning objective |
-|------|--------------------|
-| ISD1 | Calculate and evaluate the likelihood of selecting a random sample with a certain sample statistic, (e.g., a t distribution) (R) (9) |
-| ISD2 | Identify what questions can and cannot be addressed using sampling distributions; i.e. questions about individual observations require a population distribution whereas questions about samples require a sampling distribution (9) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>ISD1</td><td>Calculate and evaluate the likelihood of selecting a random sample with a certain sample statistic, (e.g., a t distribution) (R) (9)</td></tr>
+<tr><td>ISD2</td><td>Identify what questions can and cannot be addressed using sampling distributions; i.e. questions about individual observations require a population distribution whereas questions about samples require a sampling distribution (9)</td></tr>
+</table>
 
 ### 4.2. Use confidence intervals to compare models
 
 
 #### 4.2.1. Understand confidence intervals (CI)
 
-| Code | Learning objective |
-|------|--------------------|
-| CI1 | Recognize that just as a fixed DGP could produce a range of estimates, a single estimate could be produced by a range of DGPs (9) |
-| CI2 | Recognize that a confidence interval represents a range of parameter values that could, with some degree of likelihood, have produced your estimate (10) |
-| CI3 | Define margin of error and be able to find it (10) |
-| CI4 | Recognize how standard error relates to confidence intervals (10) |
-| CI5 | Recognize that the upper and lower bounds of a confidence interval represent the highest and lowest parameter values beyond which our sample would have been unlikely (10) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>CI1</td><td>Recognize that just as a fixed DGP could produce a range of estimates, a single estimate could be produced by a range of DGPs (9)</td></tr>
+<tr><td>CI2</td><td>Recognize that a confidence interval represents a range of parameter values that could, with some degree of likelihood, have produced your estimate (10)</td></tr>
+<tr><td>CI3</td><td>Define margin of error and be able to find it (10)</td></tr>
+<tr><td>CI4</td><td>Recognize how standard error relates to confidence intervals (10)</td></tr>
+<tr><td>CI5</td><td>Recognize that the upper and lower bounds of a confidence interval represent the highest and lowest parameter values beyond which our sample would have been unlikely (10)</td></tr>
+</table>
 
 #### 4.2.2. Construct a confidence interval around an estimate (R) (CCI)
 
-| Code | Learning objective |
-|------|--------------------|
-| CCI1 | Construct confidence intervals using simulation, bootstrapping, and the mathematical probability distribution (i.e., z, t) for various estimates (e.g., b0, b1) (10) (R) |
-| CCI2 | Explain how level of confidence, sample size, and variance impact the size of a confidence interval (10) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>CCI1</td><td>Construct confidence intervals using simulation, bootstrapping, and the mathematical probability distribution (i.e., z, t) for various estimates (e.g., b0, b1) (10) (R)</td></tr>
+<tr><td>CCI2</td><td>Explain how level of confidence, sample size, and variance impact the size of a confidence interval (10)</td></tr>
+</table>
 
 #### 4.2.3. Interpret a confidence interval (ICI)
 
-| Code | Learning objective |
-|------|--------------------|
-| ICI1 | Interpret confidence intervals in regression and grouping models for various estimates (e.g., b0, b1) (10) |
-| ICI2 | Explain why you might reject the empty model when a confidence interval for b1 contains 0 (10) |
-| ICI3 | Interpret a confidence interval correctly (10) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>ICI1</td><td>Interpret confidence intervals in regression and grouping models for various estimates (e.g., b0, b1) (10)</td></tr>
+<tr><td>ICI2</td><td>Explain why you might reject the empty model when a confidence interval for b1 contains 0 (10)</td></tr>
+<tr><td>ICI3</td><td>Interpret a confidence interval correctly (10)</td></tr>
+</table>
 
 ### 4.3. Compare models using the F distribution
 
 
 #### 4.3.1. Understand F (F)
 
-| Code | Learning objective |
-|------|--------------------|
-| F1 | Define F as a measure of the strength of a relationship per parameter used in a model; and as a ratio of variation explained to variation unexplained (11) |
-| F2 | Use simulation to explore which statistics can be modeled with the F distribution. (R) (11) |
-| F3 | Interpret an F distribution, and distinguish the F statistic from the F distribution (11) |
-| F4 | Recognize that the shape of the F distribution depends on the degrees of freedom for model and for error (11) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>F1</td><td>Define F as a measure of the strength of a relationship per parameter used in a model; and as a ratio of variation explained to variation unexplained (11)</td></tr>
+<tr><td>F2</td><td>Use simulation to explore which statistics can be modeled with the F distribution. (R) (11)</td></tr>
+<tr><td>F3</td><td>Interpret an F distribution, and distinguish the F statistic from the F distribution (11)</td></tr>
+<tr><td>F4</td><td>Recognize that the shape of the F distribution depends on the degrees of freedom for model and for error (11)</td></tr>
+</table>
 
 #### 4.3.2. Conduct model comparison (MC)
 
-| Code | Learning objective |
-|------|--------------------|
-| MC1 | Conduct F tests for ANOVA and regression models in some context for some purpose (7, 8) |
-| MC2 | Identify the region that corresponds to p-value in a sampling distribution of F or PRE (11) |
-| MC3 | Define p-value as the probability of obtaining an F or PRE statistic as extreme or more extreme than the one observed assuming that the empty model is true (11) |
-| MC4 | Explain how the numbers in an ANOVA table are calculated and what they mean (7, 8) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>MC1</td><td>Conduct F tests for ANOVA and regression models in some context for some purpose (7, 8)</td></tr>
+<tr><td>MC2</td><td>Identify the region that corresponds to p-value in a sampling distribution of F or PRE (11)</td></tr>
+<tr><td>MC3</td><td>Define p-value as the probability of obtaining an F or PRE statistic as extreme or more extreme than the one observed assuming that the empty model is true (11)</td></tr>
+<tr><td>MC4</td><td>Explain how the numbers in an ANOVA table are calculated and what they mean (7, 8)</td></tr>
+</table>
 
 #### 4.3.3. Interpret results of model comparison (IMC)
 
-| Code | Learning objective |
-|------|--------------------|
-| IMC1 | Determine which statistics can be used to compare two group or three group models versus an empty model (11) |
-| IMC2 | Recognize the limitations of the F test in a three group model (11) |
-| IMC3 | Explain the relationship between an F test and a t test (11) |
-| IMC4 | Recognize and explain the need for simple effects tests (11) |
-| IMC5 | Use the results of ANOVA tables to make predictions about confidence intervals (11) |
-| IMC6 | Explain the problem of simultaneous comparisons and how it is addressed by the bonferroni correction (11) |
-| IMC7 | Explain the inherent risk of statisticians’ p hacking; calculate likelihood of p-hacking (11) |
-| IMC8 | Explain and recognize Type I error and why its probability of occurring is never zero (11) |
-| IMC9 | Explain the use of an alpha level and how it relates to type I and type II error (11) |
-| IMC10 | Explain and recognize Type II error (11) |
-| IMC11 | Use the F statistic to compare models; intuit about effect size based on size of F ratio (7) |
-| IMC12 | Interpret a p-value and link to the assumed Data Generating Process (11) |
+<table>
+<tr><th width="80">Code</th><th width="820">Learning objective</th></tr>
+<tr><td>IMC1</td><td>Determine which statistics can be used to compare two group or three group models versus an empty model (11)</td></tr>
+<tr><td>IMC2</td><td>Recognize the limitations of the F test in a three group model (11)</td></tr>
+<tr><td>IMC3</td><td>Explain the relationship between an F test and a t test (11)</td></tr>
+<tr><td>IMC4</td><td>Recognize and explain the need for simple effects tests (11)</td></tr>
+<tr><td>IMC5</td><td>Use the results of ANOVA tables to make predictions about confidence intervals (11)</td></tr>
+<tr><td>IMC6</td><td>Explain the problem of simultaneous comparisons and how it is addressed by the bonferroni correction (11)</td></tr>
+<tr><td>IMC7</td><td>Explain the inherent risk of statisticians’ p hacking; calculate likelihood of p-hacking (11)</td></tr>
+<tr><td>IMC8</td><td>Explain and recognize Type I error and why its probability of occurring is never zero (11)</td></tr>
+<tr><td>IMC9</td><td>Explain the use of an alpha level and how it relates to type I and type II error (11)</td></tr>
+<tr><td>IMC10</td><td>Explain and recognize Type II error (11)</td></tr>
+<tr><td>IMC11</td><td>Use the F statistic to compare models; intuit about effect size based on size of F ratio (7)</td></tr>
+<tr><td>IMC12</td><td>Interpret a p-value and link to the assumed Data Generating Process (11)</td></tr>
+</table>
