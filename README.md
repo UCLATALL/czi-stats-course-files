@@ -19,7 +19,7 @@ Guidance for instructors who teach introductory statistics with a more tradition
 
 The learning goals and objectives that the CourseKata materials are designed around, and that the assessment items embedded in the books are aligned to. Organized as a hierarchy of four high-level goals (Understand Data, Explore Variation, Model Variation, Evaluate Models), sub-goals, and 176 specific learning objectives.
 
-- [learning-objectives/learning-objectives.md](learning-objectives/learning-objectives.md) — **current version**: the full hierarchy, with the book chapters that address each objective (aligned to book version v5+; verified against v7.2)
+- [learning-objectives/learning-objectives.md](learning-objectives/learning-objectives.md) — **current version**: the full hierarchy, with the chapters that address each objective in both the ABC/ABCD books and the accelerated XCD book (aligned to book version v5+; verified against v7.2)
 - [learning-objectives/learning-objectives.csv](learning-objectives/learning-objectives.csv) — the same content in flat, machine-readable form (one row per objective), with numeric objective IDs and the number of assessment items aligned to each objective; useful for filtering, searching, or building a crosswalk to your own course objectives
 - [learning-objectives/learning-objectives-book-v4.md](learning-objectives/learning-objectives-book-v4.md) — archived v4, with chapter references to older versions of the book
 
