@@ -23,6 +23,10 @@ The learning goals and objectives that the CourseKata materials are designed aro
 - [learning-objectives/learning-objectives.csv](learning-objectives/learning-objectives.csv) — the same content in flat, machine-readable form (one row per objective), with numeric objective IDs and the number of assessment items aligned to each objective; useful for filtering, searching, or building a crosswalk to your own course objectives
 - [learning-objectives/learning-objectives-book-v4.md](learning-objectives/learning-objectives-book-v4.md) — archived v4, with chapter references to older versions of the book
 
+### Book alignment
+
+- [book-alignment/abcd-to-xcd.md](book-alignment/abcd-to-xcd.md) — for instructors teaching from the accelerated XCD book who want to use the [teaching materials](https://github.com/UCLATALL/teaching-materials), which are organized by ABC/ABCD chapters: maps each ABC/ABCD section (e.g., 2.1–2.7) to the XCD pages that cover the same content, plus a page-by-page table
+
 ## Everything Else
 
 The rest of the repository holds files that are accessed through links in the CourseKata textbooks: R cheatsheets for the various book configurations (AB, ABC, ABCD, XCD, G), assigned readings, data files, and R setup scripts. These are referenced where they are needed in the books and are not documented individually here.
