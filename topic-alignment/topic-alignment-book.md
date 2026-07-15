@@ -1,35 +1,37 @@
 # Topic Alignment, by Book (Book Version 7+)
 
-This guide is for instructors who teach introductory statistics with a more traditional (non-modeling) set of topics and want to know where to find those topics in the CourseKata books. Chapter and page numbers refer to version 7.2 of the college books: *Introductory Statistics with R (ABC)* and *Advanced Statistics with R (ABCD)*.
+This guide is for instructors who teach introductory statistics with a more traditional (non-modeling) set of topics and want to know where to find those topics in the CourseKata books. Chapter and page numbers refer to version 7.2 of the college books: *Introductory Statistics with R (ABC)*, *Advanced Statistics with R (ABCD)*, and *Accelerated Statistics with R (XCD)*.
+
+XCD is the accelerated version of ABCD: its Chapters 1–3 compress the material of ABC/ABCD Chapters 1–9 (with some topics trimmed — see the [XCD section](#topics-covered-in-accelerated-statistics-with-r-xcd) below), and its Chapters 4–10 are identical in content to ABCD Chapters 10–16 (subtract 6 from the ABCD chapter number).
 
 ## Traditional Topics at a Glance
 
-| Traditional topic | Where to find it |
-|---|---|
-| Types of variables; measurement | Chapter 2 (2.5–2.7) |
-| Sampling; samples vs. populations | Chapter 2 (2.8); Chapter 3 (3.10–3.13) |
-| Frequency tables | Chapter 2 (2.4) |
-| Histograms, box plots, five-number summary | Chapter 3 (3.2–3.8) |
-| Shape, center, and spread | Chapter 3 (3.4) |
-| Bar graphs; categorical variables | Chapter 3 (3.9); Chapter 4 (4.6) |
-| Scatterplots | Chapter 4 (4.2) |
-| Contingency tables | Chapter 4 (4.7) |
-| Study design: correlational vs. experimental | Chapter 4 (4.10) |
-| Mean and median | Chapter 5 (5.2–5.4) |
-| Sum of squares, variance, standard deviation | Chapter 6 (6.1–6.4) |
-| z-scores | Chapter 6 (6.5–6.6) |
-| Normal distribution; empirical rule | Chapter 6 (6.7–6.11) |
-| Independent samples t-test (as model comparison) | Chapter 7 (model); Chapters 10–11 (inference) |
-| One-way ANOVA (as model comparison) | Chapter 8 (model); Chapter 11 (inference) |
-| Regression and correlation | Chapter 9; inference in Chapters 10–12 |
-| Sampling distributions | Chapter 10 (10.2–10.3); Chapter 11 (11.2–11.3) |
-| Hypothesis testing, p-value, alpha | Chapter 10 |
-| t-distribution | Chapter 10 (10.7); Chapter 11 (11.7); Chapter 12 (12.7) |
-| Type I and Type II error | Chapter 11 (11.9) |
-| Pairwise/multiple comparisons | Chapter 11 (11.11–11.12); Chapter 12 (12.12) |
-| Chi-square test of independence | Chapter 11 (11.13) |
-| Confidence intervals; bootstrapping; standard error | Chapter 12 |
-| ANCOVA, factorial ANOVA, multiple regression, interactions | Chapters 13–16 (ABCD only) |
+| Traditional topic | In ABC / ABCD | In XCD |
+|---|---|---|
+| Types of variables; measurement | Chapter 2 (2.5–2.7) | Chapter 1 (1.6) |
+| Sampling; samples vs. populations | Chapter 2 (2.8); Chapter 3 (3.10–3.13) | Chapter 2 (2.8; much reduced) |
+| Frequency tables | Chapter 2 (2.4) | Chapter 1 (1.11) |
+| Histograms, box plots, five-number summary | Chapter 3 (3.2–3.8) | Chapter 1 (1.10) |
+| Shape, center, and spread | Chapter 3 (3.4) | Chapter 1 (1.10–1.11) |
+| Bar graphs; categorical variables | Chapter 3 (3.9); Chapter 4 (4.6) | Chapter 1 (1.11); Chapter 2 (2.2–2.3) |
+| Scatterplots | Chapter 4 (4.2) | Chapter 2 (2.2) |
+| Contingency tables | Chapter 4 (4.7) | Chapter 1 (1.9; brief) |
+| Study design: correlational vs. experimental | Chapter 4 (4.10) | Chapter 3 (3.13; brief discussion of random assignment and confounding) |
+| Mean and median | Chapter 5 (5.2–5.4) | Chapter 1 (1.10); Chapter 2 (2.5) |
+| Sum of squares, variance, standard deviation | Chapter 6 (6.1–6.4) | Chapter 2 (2.9–2.10) |
+| z-scores | Chapter 6 (6.5–6.6) | not covered |
+| Normal distribution; empirical rule | Chapter 6 (6.7–6.11) | not covered |
+| Independent samples t-test (as model comparison) | Chapter 7 (model); Chapters 10–11 (inference) | Chapter 3 (model); Chapters 4–5 (inference) |
+| One-way ANOVA (as model comparison) | Chapter 8 (model); Chapter 11 (inference) | Chapter 3 (model); Chapter 5 (inference) |
+| Regression and correlation | Chapter 9; inference in Chapters 10–12 | Chapter 3 (3.6–3.9); inference in Chapters 4–6; correlation coefficient not covered |
+| Sampling distributions | Chapter 10 (10.2–10.3); Chapter 11 (11.2–11.3) | Chapter 4 (4.2–4.3); Chapter 5 (5.2–5.3) |
+| Hypothesis testing, p-value, alpha | Chapter 10 | Chapter 4 |
+| t-distribution | Chapter 10 (10.7); Chapter 11 (11.7); Chapter 12 (12.7) | Chapter 4 (4.7); Chapter 5 (5.7); Chapter 6 (6.7) |
+| Type I and Type II error | Chapter 11 (11.9) | Chapter 5 (5.9) |
+| Pairwise/multiple comparisons | Chapter 11 (11.11–11.12); Chapter 12 (12.12) | Chapter 5 (5.11–5.12); Chapter 6 (6.12) |
+| Chi-square test of independence | Chapter 11 (11.13) | Chapter 5 (5.13) |
+| Confidence intervals; bootstrapping; standard error | Chapter 12 | Chapter 6 |
+| ANCOVA, factorial ANOVA, multiple regression, interactions | Chapters 13–16 (ABCD only) | Chapters 7–10 |
 
 ## Topics Covered in Introductory Statistics with R (ABC)
 
@@ -121,6 +123,28 @@ This guide is for instructors who teach introductory statistics with a more trad
 - Chapter 16 - More Models with Interactions
   - Interactions with two quantitative predictors (multiple regression with interactions)
   - Interactions with two categorical predictors (factorial ANOVA with interactions)
+
+## Topics Covered in Accelerated Statistics with R (XCD)
+
+XCD is a 10-chapter accelerated book covering the same modeling approach for students who can move faster (e.g., a second course, or a one-term course for well-prepared students). Chapters 4–10 are identical in content to ABCD Chapters 10–16, so only the first three chapters are outlined here:
+
+- Chapter 1 - Exploring Data with R (condenses ABC/ABCD Chapters 1–3)
+  - R basics: functions, arguments, R objects
+  - Data frames; variable types; selecting and filtering data
+  - Missing data; recoding and creating variables
+  - Visualizing and summarizing quantitative and categorical variables: histograms, box plots, five-number summary, frequency tables
+- Chapter 2 - From Exploring to Modeling Variation (condenses ABC/ABCD Chapters 4–6)
+  - Visualizing relationships between two variables
+  - Explaining variation in an outcome variable
+  - The mean as a model; fitting the empty model; DATA = MODEL + ERROR notation; parameters and estimates
+  - Quantifying error around a model: sum of squares (variance and standard deviation in brief)
+- Chapter 3 - Modeling Relationships in Data (condenses ABC/ABCD Chapters 7–9)
+  - Group model: adding a categorical explanatory variable; GLM notation; error from the model
+  - Regression model: adding a quantitative explanatory variable; interpreting parameter estimates
+  - Comparing models with ANOVA tables, PRE, and F
+- Chapters 4–10 - identical to ABCD Chapters 10–16: The Logic of Inference; Model Comparison with F; Parameter Estimation and Confidence Intervals; and the four multivariate chapters (subtract 6 from the ABCD chapter number)
+
+Because Chapters 1–3 compress nine chapters of material, some topics from ABC/ABCD receive little or no coverage in XCD: z-scores and standardized variables, the normal distribution as a model of error, the empirical rule, the correlation coefficient, shuffling and simulation before the inference chapters, the law of large numbers, measurement error and sampling bias, path diagrams, and models with more than two groups before the inference chapters. The [learning objectives document](../learning-objectives/learning-objectives.md) marks exactly which objectives are and are not covered in XCD.
 
 ## Notable Changes from the 5.4–6.2 Version of This Guide
 

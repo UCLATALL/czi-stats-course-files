@@ -12,7 +12,7 @@ The unversioned file in each folder is always the current version; when a docume
 
 Guidance for instructors who teach introductory statistics with a more traditional (non-modeling) set of topics, showing where to find those topics in the CourseKata books.
 
-- [topic-alignment/topic-alignment-book.md](topic-alignment/topic-alignment-book.md) — **current version**, aligned to book version v7+ (verified against v7.2); includes a traditional-topics-at-a-glance table (t-test, ANOVA, regression, chi-square, etc.) and a chapter-by-chapter topic list
+- [topic-alignment/topic-alignment-book.md](topic-alignment/topic-alignment-book.md) — **current version**, aligned to book version v7+ (verified against v7.2); includes a traditional-topics-at-a-glance table (t-test, ANOVA, regression, chi-square, etc.) covering both the ABC/ABCD and accelerated XCD books, and chapter-by-chapter topic lists
 - [topic-alignment/topic-alignment-book-v5.4-6.2.md](topic-alignment/topic-alignment-book-v5.4-6.2.md) — archived version for book versions 5.4–6.2
 
 ### Learning objectives
