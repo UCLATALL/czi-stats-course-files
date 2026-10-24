@@ -1,0 +1,74 @@
+/* CourseKata accessible tables -- shared stylesheet (ck-a11y v5).
+ *
+ * Linked from each book page with one line:
+ *   <link rel="stylesheet" href="https://uclatall.github.io/czi-stats-course-files/css/ck-a11y.css">
+ *
+ * Patterns and decisions: book-demo, Accessibility chapter (Tables, More R
+ * Output Tables, R Output Edge Cases). Every selector here is namespaced
+ * (r-output, r-output-wrap, sr-only), so nothing restyles the CourseKata
+ * interface around the page.
+ *
+ * Editing this file changes every page that links it, with no book rebuild.
+ * GitHub Pages and browsers may cache it for a few minutes.
+ */
+
+/* ---- R output as tables (all outputs) ---- */
+  /* The grey block lives on the wrapper, not the table, so it spans the full
+     width like a <pre> does -- while the table inside stays content-width. */
+  .r-output-wrap { overflow-x: auto; margin-bottom: 1em;
+    background-color: #f5f5f5; padding: 0.75em; }
+  /* Courier matches the platform. CourseKata's site.css sets
+     `.course-content>div:not(.lesson-statistics) code { font-family: Courier }`,
+     so every <code> in book prose renders in Courier. Note it styles the <code>
+     child, not <pre> -- a fenced block is <pre><code>, so the inner <code> wins
+     and a font set on <pre> alone has no visible effect. These tables have no
+     <code> children, so they must name Courier themselves to match. "Courier New"
+     follows for Windows, where bare Courier is often absent. */
+  /* display:table is defensive -- some templates (including pandoc's default)
+     set table{display:block}, which strips the table semantics entirely.
+     width:auto keeps columns tight like real console output instead of
+     stretching them across the page. */
+  table.r-output { display: table; width: auto; margin: 0; padding: 0;
+    background: transparent;
+    font-family: var(--ckc-font-family-mono, Courier, "Courier New", monospace);
+    font-size: 0.9em; line-height: 1.35; border-collapse: collapse; }
+  /* Zero every border, on every part of the table. R prints no rules, so we
+     draw none -- and surrounding stylesheets like to add them to tbody/th. */
+  table.r-output, table.r-output thead, table.r-output tbody, table.r-output tr,
+  table.r-output th, table.r-output td { border: 0; }
+  table.r-output th, table.r-output td { padding: 0 0.35em;
+    font-weight: normal; white-space: nowrap; }
+  table.r-output .num { text-align: right; }
+  /* Lines R prints above a table -- a tally label, supernova's title lines --
+     are not data and must not become header cells. A visible <caption> puts
+     them where R puts them and keeps them tied to the table, so they are
+     announced on entry rather than stranded as loose text nearby. */
+  table.r-output > caption:not(.sr-only) { caption-side: top; text-align: left;
+    font: inherit; margin: 0; padding: 0 0.35em 0.5em; white-space: nowrap; }
+  /* Text columns that R prints left-aligned (tibble character columns,
+     row labels like "(Intercept)"). */
+  table.r-output .txt { text-align: left; }
+  /* Keep a long visible caption (lm()'s "Call:" line, a long supernova
+     "Model:" line) from stretching the table and spreading its columns apart.
+     The caption still shows in full and scrolls with the table. */
+  table.r-output > caption:not(.sr-only) { contain: inline-size; }
+  /* r-even: wrapped vectors (a long tally(), wrapped lm() coefficients),
+     where R pads every column to the same width. Set --col on the table to
+     R's column width at 0.6em per character of Courier (4 characters =
+     2.4em). content-box makes --col the text width alone: CourseKata's
+     framework sets border-box on everything. max-content stops a narrow page
+     from squeezing the columns; the table scrolls instead. */
+  table.r-output.r-even th, table.r-output.r-even td { box-sizing: content-box; width: var(--col); }
+  table.r-output.r-even { width: max-content; }
+  .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+/* ---- supernova() ANOVA tables ---- */
+  /* supernova() ANOVA tables: table.r-output plus the rule lines R prints,
+     redrawn as borders -- under the header, right of the row labels, and
+     above the Total row. */
+  table.r-output.supernova th, table.r-output.supernova td { padding: .15em .5em; }
+  table.r-output.supernova > caption:not(.sr-only) { padding: 0 0.5em 0.5em; }
+  table.r-output.supernova tbody th { text-align: left; border-right: 1px solid #999; }
+  table.r-output.supernova thead th { border-bottom: 1px solid #999; }
+  table.r-output.supernova tr.total th, table.r-output.supernova tr.total td { border-top: 1px solid #999; }
