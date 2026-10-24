@@ -1,4 +1,4 @@
-/* CourseKata accessible tables -- shared stylesheet (ck-a11y v5).
+/* CourseKata accessible tables -- shared stylesheet (ck-a11y v6).
  *
  * Linked from each book page with one line:
  *   <link rel="stylesheet" href="https://uclatall.github.io/czi-stats-course-files/css/ck-a11y.css">
@@ -35,8 +35,13 @@
   /* Zero every border, on every part of the table. R prints no rules, so we
      draw none -- and surrounding stylesheets like to add them to tbody/th. */
   table.r-output, table.r-output thead, table.r-output tbody, table.r-output tr,
-  table.r-output th, table.r-output td { border: 0; }
-  table.r-output th, table.r-output td { padding: 0 0.35em;
+  table.r-output th, table.r-output td,
+  .r-output-wrap table.r-output th, .r-output-wrap table.r-output td { border: 0; }
+  /* The .r-output-wrap versions outrank a page's own "table.x th, table.x td"
+     rules, which would otherwise reach into an R output table nested inside
+     another table (e.g. the Observed/Expected tables on the chi-square page). */
+  table.r-output th, table.r-output td,
+  .r-output-wrap table.r-output th, .r-output-wrap table.r-output td { padding: 0 0.35em;
     font-weight: normal; white-space: nowrap; }
   table.r-output .num { text-align: right; }
   /* Lines R prints above a table -- a tally label, supernova's title lines --
@@ -62,6 +67,9 @@
   table.r-output.r-even { width: max-content; }
   .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
     overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+/* v6: the .r-output-wrap selectors above, so a page's own table styles
+   can't add borders or padding to an R output table nested in its table. */
 
 /* ---- supernova() ANOVA tables ---- */
   /* supernova() ANOVA tables: table.r-output plus the rule lines R prints,
